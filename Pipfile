@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "==2.10.0"
+tensorflow-hub = "==0.13.0"
+tensorflow-text = "*"
+tf-models-official = "*"
+matplotlib = "*"
+transformers = "==2.3.0"
+openpyxl = "*"
+ipykernel = "*"
+tokenization = "*"
+bert-for-tf2 = "*"
+bert-tensorflow = "*"
+bert = "*"
+openai = "*"
+opencc = "*"
+imageio = "*"
+seaborn = "*"
+gensim = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+python_full_version = "3.8.2"
